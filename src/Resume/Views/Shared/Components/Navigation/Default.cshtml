@@ -1,0 +1,19 @@
+﻿@model NavigationViewModel
+<nav class="navigation">
+    <ul class="menu">
+        @foreach (var item in Model.Menu)
+        {
+            <li class="@(item.IsActive ? "active" : "")">
+                <a href="@item.Url">@item.Name</a>
+            </li>
+        }
+    </ul>
+    <ul class="culture">
+        @foreach (var item in Model.Cultures)
+        {
+            <li class="@(item.IsActive ? "active" : "")">
+                <a href="@item.Url">@item.Name</a>
+            </li>
+        }
+    </ul>
+</nav>

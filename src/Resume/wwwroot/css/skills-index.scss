@@ -1,0 +1,131 @@
+﻿.skills-index {
+    display: flex;
+    flex-flow: row wrap;
+
+    & > * {
+        flex: 1;
+    }
+
+    .front-end, .back-end {
+        max-width: 350px;
+        min-width: 350px;
+        padding: 0 64px 0 0;
+    }
+
+    .skill {
+        align-items: center;
+        border-bottom: 1px dashed #e1e1e1;
+        display: flex;
+        padding: 4px 0;
+
+        &.secondary, &.obsolete {
+            border-bottom: 0;
+            font-size: 14px;
+        }
+
+        &.preferred {
+            font-weight: 600;
+        }
+
+        &.obsolete {
+            color: gray;
+        }
+
+        .name {
+            flex: 1;
+
+            img {
+                vertical-align: top;
+            }
+        }
+
+        .level {
+        }
+    }
+
+    .skills-legend {
+        color: gray;
+        font-size: 13px;
+        margin: 16px 0;
+        min-width: 260px;
+    }
+
+    .personal-info {
+        font-size: 14px;
+        min-width: 350px;
+    }
+
+    .bio {
+        line-height: 24px;
+        margin: 0 0 32px 0;
+    }
+
+    .abilities {
+        .ability {
+            align-items: center;
+            display: flex;
+            flex-flow: row nowrap;
+            margin: 0 0 16px 0;
+
+            img {
+                margin: 0 16px 0 0;
+                opacity: 0.9;
+            }
+        }
+    }
+
+    .tests {
+        min-width: 100%;
+
+        .rank-column {
+            vertical-align: middle;
+        }
+
+        .score {
+            display: inline-block;
+            font-family: monospace;
+            width: 40px;
+        }
+
+        .rank-badge {
+            background-color: #2196F3;
+            border-radius: 2px;
+            color: #FFF;
+            display: inline-block;
+            font-size: 9px;
+            margin: 0 0 0 10px;
+            min-width: 45px;
+            padding: 2px 4px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+    }
+
+    .tests.small-screen {
+        .test {
+            margin: 0 0 24px 0;
+        }
+
+        .score {
+            background-color: #eee;
+            font-weight: 100;
+            padding: 1px 4px;
+            width: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .skills-index {
+        display: block;
+
+        .front-end, .back-end {
+            min-width: 0;
+            padding: 0;
+        }
+
+        .personal-info {
+            min-width: 0;
+        }
+    }
+}

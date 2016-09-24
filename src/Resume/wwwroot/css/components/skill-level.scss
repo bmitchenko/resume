@@ -1,0 +1,24 @@
+﻿.skill-level {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 90px;
+
+    & > * {
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+    }
+
+    .skill-level-empty {
+        background-color: #BBDEFB;
+    }
+
+    .skill-level-point {
+        background-color: #2196F3;
+        border: 3px solid #BBDEFB;
+    }
+
+    .skill-level-fill {
+        background-color: #2196F3;
+    }
+}

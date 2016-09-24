@@ -1,0 +1,60 @@
+﻿.experience-index {
+    h3 {
+        font-family: 'Open Sans';
+        font-size: 17px;
+        font-weight: 600;
+        margin: 0 0 8px 0;
+    }
+
+    .job {
+        display: flex;
+        margin: 0 0 32px;
+    }
+
+    .job-period {
+        font-size: 16px;
+        font-weight: 300;
+        padding: 2px 20px 0 0;
+    }
+
+    .job-description {
+        flex: 1;
+    }
+
+    .job-title {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .job-responsibilities {
+        &, li {
+            list-style: none;
+            padding: 0;
+        }
+    }
+
+    .job-skills {
+        a {
+            color: #777;
+        }
+    }
+
+    .job-projects {
+        a {
+            color: #000;
+        }
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .experience-index {
+        .job {
+            display: block;
+        }
+
+        .job-period {
+            margin: 0 0 8px 0;
+        }
+    }
+}

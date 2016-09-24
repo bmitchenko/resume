@@ -1,0 +1,26 @@
+﻿[
+  {
+    "ID": 1,
+    "Name": {
+      "ru": "CSS, LESS, SCSS"
+    }
+  },
+  {
+    "ID": 2,
+    "Name": {
+      "ru": "AutoFac, Ninject"
+    }
+  },
+  {
+    "ID": 3,
+    "Name": {
+      "ru": "ASP.NET"
+    }
+  },
+  {
+    "ID": 4,
+    "Name": {
+      "ru": "HTML, HTML5"
+    }
+  }
+]

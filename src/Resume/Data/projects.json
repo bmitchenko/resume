@@ -1,0 +1,1048 @@
+﻿[
+  {
+    "ID": 1,
+    "Name": {
+      "ru": "Резюме",
+      "en": "Resume Website"
+    },
+    "Task": {
+      "ru": "Сайт для предоставления исчерпывающей информации о соискателе на должность программиста.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "Приложение написано на ASP.NET Core MVC. Данные о навыках, опыте работы и проектах хранятся в JSON. Поддерживает локализацию.",
+      "en": ""
+    },
+    "DateStarted": "2016-09-20",
+    "DateFinished": "2016-09-22",
+    "SourceLink": "https://github.com/bmitchenko/resume",
+    "Skills": [ 2, 8, 11, 17, 18, 19, 22, 23 ]
+  },
+  {
+    "ID": 2,
+    "Name": {
+      "ru": "Статус",
+      "en": "Status"
+    },
+    "EmploymentID": 0,
+    "Task": {
+      "ru": "Программное решение для повышения уровня продаж и качества обслуживания клиентов в сети магазинов элитной одежды.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "Интернет-каталог создан с использованием ASP.NET Core MVC. Модуль администратора представляет собой одностраничное приложение Angular 2. При разработке был использован собственный набор компонентов [impresite-ui](http://github.com/bmitchenko/impresite-ui) и модуль валидации [lakmus](http://github.com/bmitchenko/lakmus). В качестве бэкэнда используется ASP.NET Core Web API. Сайт использует шлюз Imobis для проведения массовых СМС-рассылок.",
+      "en": ""
+    },
+    "Result": {
+      "ru": "Проект успешно завершен и перешел на стадию тестирования.",
+      "en": ""
+    },
+    "DateStarted": "2016-04-01",
+    "DateFinished": "2016-09-30",
+    "Skills": [ 1, 3, 8, 11, 14, 17, 18, 19, 22, 23, 24, 25, 29, 30 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/status/menswear-web-1-home.png",
+        "ThumbnailUrl": "/images/portfolio/status/menswear-web-1-home-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1303
+      },
+      {
+        "Url": "/images/portfolio/status/menswear-3-pos.png",
+        "ThumbnailUrl": "/images/portfolio/status/menswear-3-pos-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 901
+      },
+      {
+        "Url": "/images/portfolio/status/menswear-2-report.png",
+        "ThumbnailUrl": "/images/portfolio/status/menswear-2-report-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 901
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": {
+      "ru": "Impresite UI",
+      "en": "Impresite UI"
+    },
+    "Task": {
+      "ru": "Набор UI компонентов для Angular 2.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "Основной мотивацией для написания данной библиотеки было изучение Angular 2, т.к. задачи, возникающие при создании таких библиотек, позволяют погрузиться в детали изучаемого фреймворка. Визуальное оформление заимствовано из [предыдущей версии](http://spa.impresite.ru/components), написанной на Knockout.js.",
+      "en": ""
+    },
+    "Result": {
+      "ru": "Библиотека успешно применена в проекте для сети магазинов элитной одежды \"Статус\".",
+      "en": ""
+    },
+    "DateStarted": "2016-08-15",
+    "DateFinished": "2016-08-31",
+    "DemoLink": "http://ui.impresite.ru",
+    "SourceLink": "http://github.com/bmitchenko/impresite-ui",
+    "Skills": [ 1, 3, 8, 11, 14, 15, 17 ]
+  },
+  {
+    "ID": 4,
+    "Name": {
+      "ru": "Lakmus",
+      "en": "Lakmus"
+    },
+    "Task": {
+      "ru": "Пакет для валидации данных.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "Написан на TypeScript под влиянием опыта использования FluentValidation для .NET.",
+      "en": ""
+    },
+    "Result": {
+      "ru": "Успешно использован в проекте для сети магазинов элитной одежды \"Статус\".",
+      "en": ""
+    },
+    "DateStarted": "2016-08-01",
+    "DateFinished": "2016-08-10",
+    "SourceLink": "http://github.com/bmitchenko/lakmus",
+    "Skills": [ 1, 13, 15 ]
+  },
+  {
+    "ID": 5,
+    "Name": {
+      "ru": "Экоплейсес",
+      "en": "Ecoplaces"
+    },
+    "Task": {
+      "ru": "Сервис онлайн-бронирований мест загородного отдыха.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "На базе существующей архитектуры мною было создано одностраничное приложение на Durandal и сайт на ASP.NET MVC. Интерфейс SPA строится по метаданным, в качестве бэкэнда используется ASP.NET Web API.",
+      "en": ""
+    },
+    "Result": {
+      "ru": "Проект успешно запущен и принимает заказы.",
+      "en": ""
+    },
+    "DateStarted": "2015-03-01",
+    "DateFinished": "2016-03-01",
+    "DemoLink": "http://ecoplaces.ru",
+    "Skills": [ 1, 4, 5, 8, 10, 16, 19, 20, 21, 23, 24, 25, 28 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/ecoplaces/ecoplaces-01-main.png",
+        "ThumbnailUrl": "/images/portfolio/ecoplaces/ecoplaces-01-main-tn.png",
+        "Description": {
+          "ru": "Главная страница сайта",
+          "en": "Home page"
+        },
+        "Width": 1920,
+        "Height": 2101
+      },
+      {
+        "Url": "/images/portfolio/ecoplaces/ecoplaces-02-search.png",
+        "ThumbnailUrl": "/images/portfolio/ecoplaces/ecoplaces-02-search-tn.png",
+        "Description": {
+          "ru": "Страница поиска",
+          "en": "Search page"
+        },
+        "Width": 1920,
+        "Height": 1079
+      },
+      {
+        "Url": "/images/portfolio/ecoplaces/ecoplaces-03-details.png",
+        "ThumbnailUrl": "/images/portfolio/ecoplaces/ecoplaces-03-details-tn.png",
+        "Description": {
+          "ru": "Страница отеля",
+          "en": "Hotel page"
+        },
+        "Width": 1920,
+        "Height": 3469
+      },
+      {
+        "Url": "/images/portfolio/ecoplaces/ecoplaces-admin-01-contracts.png",
+        "ThumbnailUrl": "/images/portfolio/ecoplaces/ecoplaces-admin-01-contracts-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 930
+      },
+      {
+        "Url": "/images/portfolio/ecoplaces/ecoplaces-admin-02-place-edit.png",
+        "ThumbnailUrl": "/images/portfolio/ecoplaces/ecoplaces-admin-02-place-edit-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 2980
+      },
+      {
+        "Url": "/images/portfolio/ecoplaces/ecoplaces-admin-03-place-photos.png",
+        "ThumbnailUrl": "/images/portfolio/ecoplaces/ecoplaces-admin-03-place-photos-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 901
+      },
+      {
+        "Url": "/images/portfolio/ecoplaces/ecoplaces-admin-04-activities.png",
+        "ThumbnailUrl": "/images/portfolio/ecoplaces/ecoplaces-admin-04-activities-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1855
+      },
+      {
+        "Url": "/images/portfolio/ecoplaces/ecoplaces-admin-05-seasons.png",
+        "ThumbnailUrl": "/images/portfolio/ecoplaces/ecoplaces-admin-05-seasons-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1593
+      },
+      {
+        "Url": "/images/portfolio/ecoplaces/ecoplaces-admin-06-certificate.png",
+        "ThumbnailUrl": "/images/portfolio/ecoplaces/ecoplaces-admin-06-certificate-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1194
+      },
+      {
+        "Url": "/images/portfolio/ecoplaces/ecoplaces-admin-07-forward.png",
+        "ThumbnailUrl": "/images/portfolio/ecoplaces/ecoplaces-admin-07-forward-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 921
+      }
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": {
+      "ru": "Барс",
+      "en": "Construction management software"
+    },
+    "Task": {
+      "ru": "Автоматизация проектирования объектов и оперативного учета в строительной компании.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "Проектирование осуществляется на интерактивном [сетевом графике](http://spa.impresite.ru/pert). Программа рассчитывает потребность в материалах, трудовых ресурсах и технике, определяет длительность проекта и критический путь, формирует смету. Обеспечивает ввод оперативных данных, позволяя оценивать ход строительства. Приложение реализовано на собственном SPA-фрейморке на базе knockout.js. Бэкэнд на ASP.NET Web API 2.",
+      "en": ""
+    },
+    "Result": {
+      "ru": "",
+      "en": ""
+    },
+    "DateStarted": "2013-03-01",
+    "DateFinished": "2015-02-01",
+    "Skills": [ 1, 5, 8, 10, 17, 19, 21, 23, 24, 25 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/bars/bars-1-pert-diagram.png",
+        "ThumbnailUrl": "/images/portfolio/bars/bars-1-pert-diagram-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Url": "/images/portfolio/bars/bars-2-new-work.png",
+        "ThumbnailUrl": "/images/portfolio/bars/bars-2-new-work-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Url": "/images/portfolio/bars/bars-3-works.png",
+        "ThumbnailUrl": "/images/portfolio/bars/bars-3-works-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Url": "/images/portfolio/bars/bars-4-pert.png",
+        "ThumbnailUrl": "/images/portfolio/bars/bars-4-pert-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Url": "/images/portfolio/bars/bars-5-materials.png",
+        "ThumbnailUrl": "/images/portfolio/bars/bars-5-materials-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Url": "/images/portfolio/bars/bars-6-project.png",
+        "ThumbnailUrl": "/images/portfolio/bars/bars-6-project-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1080
+      }
+    ]
+  },
+  {
+    "ID": 7,
+    "Name": {
+      "ru": "Сайты по недвижимости",
+      "en": "Real Estate websites"
+    },
+    "Task": {
+      "ru": "",
+      "en": ""
+    },
+    "Action": {
+      "ru": "Создание семи сайтов по недвижимости на ASP.NET MVC и подключение их к [API](http://api2.bn01.ru/docs) проекта \"База недвижимости №1\".",
+      "en": ""
+    },
+    "Result": {
+      "ru": "",
+      "en": ""
+    },
+    "DateStarted": "2012-12-01",
+    "DateFinished": "2013-02-01",
+    "DemoLink": "http://arenda-lipetsk.ru",
+    "Skills": [ 1, 8, 10, 17, 18, 19, 20, 23, 24, 25 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/real-estate/arenda-lipetsk-1-list.png",
+        "ThumbnailUrl": "/images/portfolio/real-estate/arenda-lipetsk-1-list-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Url": "/images/portfolio/real-estate/arenda-lipetsk-2-details.png",
+        "ThumbnailUrl": "/images/portfolio/real-estate/arenda-lipetsk-2-details-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 2016
+      },
+      {
+        "Url": "/images/portfolio/real-estate/arenda-lipetsk-3-form.png",
+        "ThumbnailUrl": "/images/portfolio/real-estate/arenda-lipetsk-3-form-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Url": "/images/portfolio/real-estate/kvartira-lipetsk-1-list.png",
+        "ThumbnailUrl": "/images/portfolio/real-estate/kvartira-lipetsk-1-list-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 2549
+      },
+      {
+        "Url": "/images/portfolio/real-estate/kvartira-lipetsk-2-map.png",
+        "ThumbnailUrl": "/images/portfolio/real-estate/kvartira-lipetsk-2-map-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1094
+      }
+      //{
+      //  "Url": "/images/portfolio/real-estate/kvartira-lipetsk-3-details.png",
+      //  "ThumbnailUrl": "/images/portfolio/real-estate/kvartira-lipetsk-3-details-tn.png",
+      //  "Description": {
+      //    "ru": "",
+      //    "en": ""
+      //  },
+      //  "Width": 1920,
+      //  "Height": 3638
+      //},
+      //{
+      //  "Url": "/images/portfolio/real-estate/kvartira-lipetsk-4-customers.png",
+      //  "ThumbnailUrl": "/images/portfolio/real-estate/kvartira-lipetsk-4-customers-tn.png",
+      //  "Description": {
+      //    "ru": "",
+      //    "en": ""
+      //  },
+      //  "Width": 1920,
+      //  "Height": 3753
+      //},
+      //{
+      //  "Url": "/images/portfolio/real-estate/kvartira-lipetsk-5-portfolio.png",
+      //  "ThumbnailUrl": "/images/portfolio/real-estate/kvartira-lipetsk-5-portfolio-tn.png",
+      //  "Description": {
+      //    "ru": "",
+      //    "en": ""
+      //  },
+      //  "Width": 1920,
+      //  "Height": 2257
+      //}
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": {
+      "ru": "База недвижимости №1 - Обновление",
+      "en": "Real Estate #1 - Upgrade"
+    },
+    "Task": {
+      "ru": "Новая версия кабинета пользователя для проекта \"База недвижимости №1\".",
+      "en": ""
+    },
+    "Action": {
+      "ru": "Предыдущая версия была написана на WinForms и не отвечала современным требованиям. Для реализации проекта был разработан собственный SPA-фреймворк на базе knockout.js и [набор компонентов](http://spa.impresite.ru/components). В проект добавлен [API](http://api2.bn01.ru/docs) для подключения сайтов агентств. Создан сайт [impresite.ru](http://impresite.ru) для продвижения данной услуги.",
+      "en": ""
+    },
+    "Result": {
+      "ru": "",
+      "en": ""
+    },
+    "DateStarted": "2012-03-01",
+    "DateFinished": "2013-02-01",
+    "DemoLink": "http://api2.bn01.ru/docs",
+    "Skills": [ 1, 5, 8, 10, 19, 20, 21, 23, 24, 25, 31 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/bn/bn-1-list.png",
+        "ThumbnailUrl": "/images/portfolio/bn/bn-1-list-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Url": "/images/portfolio/bn/bn-2-edit-property.png",
+        "ThumbnailUrl": "/images/portfolio/bn/bn-2-edit-property-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1598,
+        "Height": 3253
+      },
+      {
+        "Url": "/images/portfolio/bn/bn-3-location.png",
+        "ThumbnailUrl": "/images/portfolio/bn/bn-3-location-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1600,
+        "Height": 775
+      },
+      {
+        "Url": "/images/portfolio/bn/bn-9-api.png",
+        "ThumbnailUrl": "/images/portfolio/bn/bn-9-api-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1080
+      },
+      {
+        "Url": "/images/portfolio/bn/impresite-1-home.png",
+        "ThumbnailUrl": "/images/portfolio/bn/impresite-1-home-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1113
+      }
+    ]
+  },
+  {
+    "ID": 9,
+    "Name": {
+      "ru": "Форсаж",
+      "en": "Forsage"
+    },
+    "Task": {
+      "ru": "Интернет-магазин для крупного производителя горюче-смазочных материалов.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "Сайт и модуль администратора разработаны на ASP.NET MVC. Каталог обновляется автоматически, загружая данные из 1C по протоколу SOAP. В качестве платежного сервиса используется Яндекс.Касса.",
+      "en": ""
+    },
+    "Result": {
+      "ru": "Проект успешно запущен.",
+      "en": ""
+    },
+    "DateStarted": "2011-09-01",
+    "DateFinished": "2012-02-01",
+    "DemoLink": "http://forsag-lipetsk.ru",
+    "Skills": [ 2, 6, 7, 9, 16, 19, 20, 23, 24, 25 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/forsage/forsag-1-home.png",
+        "ThumbnailUrl": "/images/portfolio/forsage/forsag-1-home-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1493
+      },
+      {
+        "Url": "/images/portfolio/forsage/forsag-2-catalog.png",
+        "ThumbnailUrl": "/images/portfolio/forsage/forsag-2-catalog-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 2269
+      },
+      {
+        "Url": "/images/portfolio/forsage/forsag-3-product.png",
+        "ThumbnailUrl": "/images/portfolio/forsage/forsag-3-product-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1743
+      },
+      {
+        "Url": "/images/portfolio/forsage/forsag-admin-1-home.png",
+        "ThumbnailUrl": "/images/portfolio/forsage/forsag-admin-1-home-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 901
+      },
+      {
+        "Url": "/images/portfolio/forsage/forsag-admin-2-categories.png",
+        "ThumbnailUrl": "/images/portfolio/forsage/forsag-admin-2-categories-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1122
+      },
+      {
+        "Url": "/images/portfolio/forsage/forsag-admin-3-special-offer.png",
+        "ThumbnailUrl": "/images/portfolio/forsage/forsag-admin-3-special-offer-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1340
+      },
+      {
+        "Url": "/images/portfolio/forsage/forsag-admin-4-product-edit.png",
+        "ThumbnailUrl": "/images/portfolio/forsage/forsag-admin-4-product-edit-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 2516
+      }
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": {
+      "ru": "Липецкая Деревообрабатывающая Мастерская",
+      "en": "Lipetsk Wood Workshop"
+    },
+    "Task": {
+      "ru": "Веб-сайт и кабинет пользователя для деревообрабатывающей мастерской и сайты дилеров на ASP.NET MVC.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "",
+      "en": ""
+    },
+    "Result": {
+      "ru": "",
+      "en": ""
+    },
+    "DateStarted": "2011-03-01",
+    "DateFinished": "2011-08-01",
+    "DemoLink": "http://evrookna-lipetsk.ru/",
+    "Skills": [ 2, 6, 7, 9, 19, 20, 23, 24, 25 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/ldm/ldm-1-designer.png",
+        "ThumbnailUrl": "/images/portfolio/ldm/ldm-1-designer-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1573,
+        "Height": 1358
+      },
+      {
+        "Url": "/images/portfolio/ldm/ldm-2-order.png",
+        "ThumbnailUrl": "/images/portfolio/ldm/ldm-2-order-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1573,
+        "Height": 1283
+      },
+      {
+        "Url": "/images/portfolio/ldm/ldm-3-prices.png",
+        "ThumbnailUrl": "/images/portfolio/ldm/ldm-3-prices-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1573,
+        "Height": 873
+      },
+      {
+        "Url": "/images/portfolio/ldm/ldm-4-accessories.png",
+        "ThumbnailUrl": "/images/portfolio/ldm/ldm-4-accessories-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 1325
+      },
+      {
+        "Url": "/images/portfolio/ldm/ldm-5-dealer-1.png",
+        "ThumbnailUrl": "/images/portfolio/ldm/ldm-5-dealer-1-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1040,
+        "Height": 1057
+      },
+      {
+        "Url": "/images/portfolio/ldm/ldm-5-dealer-2.png",
+        "ThumbnailUrl": "/images/portfolio/ldm/ldm-5-dealer-2-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 2057
+      }
+    ]
+  },
+  {
+    "ID": 11,
+    "Name": {
+      "ru": "Гарант-Плюс",
+      "en": "Garant Plus website"
+    },
+    "Task": {
+      "ru": "Веб-сайт для агентства недвижимости на PHP и MySQL.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "",
+      "en": ""
+    },
+    "Result": {
+      "ru": "",
+      "en": ""
+    },
+    "DateStarted": "2009-01-01",
+    "DateFinished": "2009-02-01",
+    "DemoLink": "http://garantplus48.ru",
+    "Skills": [ 2, 6, 7, 9, 36, 37 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/garantplus/garantplus-1-list.png",
+        "ThumbnailUrl": "/images/portfolio/garantplus/garantplus-1-list-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 2354
+      },
+      {
+        "Url": "/images/portfolio/garantplus/garantplus-2-details.png",
+        "ThumbnailUrl": "/images/portfolio/garantplus/garantplus-2-details-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1920,
+        "Height": 2528
+      }
+    ]
+  },
+  {
+    "ID": 12,
+    "Name": {
+      "ru": "База недвижимости №1",
+      "en": "Real Estate #1"
+    },
+    "Task": {
+      "ru": "Программный комплекс для агентств недвижимости, состоящий из сайта на ASP.NET MVC, клиентского приложения на WinForms и модуля синхронизации данных на WCF.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "",
+      "en": ""
+    },
+    "Result": {
+      "ru": "В настоящий момент программой пользуются более 200 риелторов.",
+      "en": ""
+    },
+    "DateStarted": "2008-06-01",
+    "DateFinished": "2011-02-01",
+    "DemoLink": "http://lipetsk.bn01.ru/",
+    "Skills": [ 2, 6, 7, 9, 19, 20, 23, 24, 25, 26, 32, 33 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/bn-winforms/bn-4-web-list.png",
+        "ThumbnailUrl": "/images/portfolio/bn-winforms/bn-4-web-list-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1573,
+        "Height": 1638
+      },
+      {
+        "Url": "/images/portfolio/bn-winforms/bn-5-web-details.png",
+        "ThumbnailUrl": "/images/portfolio/bn-winforms/bn-5-web-details-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1600,
+        "Height": 775
+      },
+      {
+        "Url": "/images/portfolio/bn-winforms/bn-6-winforms-list.png",
+        "ThumbnailUrl": "/images/portfolio/bn-winforms/bn-6-winforms-list-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1600,
+        "Height": 860
+      },
+      {
+        "Url": "/images/portfolio/bn-winforms/bn-7-winforms-details.png",
+        "ThumbnailUrl": "/images/portfolio/bn-winforms/bn-7-winforms-details-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1600,
+        "Height": 860
+      }
+    ]
+  },
+  {
+    "ID": 13,
+    "Name": {
+      "ru": "Аргус-Следователь",
+      "en": "Crime investigation software"
+    },
+    "Task": {
+      "ru": "",
+      "en": ""
+    },
+    "Action": {
+      "ru": "Разработка автоматизированного рабочего места следователя, предназначенного для следователей РОВД. Программное обеспечение представляет собой базу данных по уголовным делам, материалам, поручениям, участникам процесса.",
+      "en": ""
+    },
+    "Result": {
+      "ru": "Автоматизирован процесс заполнения более 80 процессуальных документов.",
+      "en": ""
+    },
+    "DateStarted": "2007-12-01",
+    "DateFinished": "2008-05-01",
+    "Skills": [ 34, 35 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/argus/argus-2.png",
+        "ThumbnailUrl": "/images/portfolio/argus/argus-2-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1024,
+        "Height": 618
+      },
+      {
+        "Url": "/images/portfolio/argus/argus-template-1.png",
+        "ThumbnailUrl": "/images/portfolio/argus/argus-template-1-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 772
+      }
+    ]
+  },
+  {
+    "ID": 14,
+    "Name": {
+      "ru": "Заказ канцтоваров",
+      "en": "Office supplies ordering software"
+    },
+    "Task": {
+      "ru": "",
+      "en": ""
+    },
+    "Action": {
+      "ru": "Внутрикорпоративное веб-приложения для учета канцтоваров и размещения заявок.",
+      "en": ""
+    },
+    "Result": {
+      "ru": "",
+      "en": ""
+    },
+    "DateStarted": "2006-09-01",
+    "DateFinished": "2007-11-01",
+    "Skills": [ 2, 7, 9, 36 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/office-supplies/stationery-16.png",
+        "ThumbnailUrl": "/images/portfolio/office-supplies/stationery-16-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Url": "/images/portfolio/office-supplies/stationery-17.png",
+        "ThumbnailUrl": "/images/portfolio/office-supplies/stationery-17-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Url": "/images/portfolio/office-supplies/stationery-21.png",
+        "ThumbnailUrl": "/images/portfolio/office-supplies/stationery-21-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Url": "/images/portfolio/office-supplies/stationery-28.png",
+        "ThumbnailUrl": "/images/portfolio/office-supplies/stationery-28-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Url": "/images/portfolio/office-supplies/stationery-30.png",
+        "ThumbnailUrl": "/images/portfolio/office-supplies/stationery-30-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Url": "/images/portfolio/office-supplies/stationery-31.png",
+        "ThumbnailUrl": "/images/portfolio/office-supplies/stationery-31-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 960
+      }
+    ]
+  },
+  {
+    "ID": 15,
+    "Name": {
+      "ru": "Запуск коллекций",
+      "en": "Unitile"
+    },
+    "Task": {
+      "ru": "Автоматизация процесса создания облицовочной плитки.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "",
+      "en": ""
+    },
+    "Result": {
+      "ru": "",
+      "en": ""
+    },
+    "DateStarted": "2006-09-01",
+    "DateFinished": "2007-11-01",
+    "Skills": [ 19, 25, 32 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/unitile/nc-01.png",
+        "ThumbnailUrl": "/images/portfolio/unitile/nc-01-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Url": "/images/portfolio/unitile/nc-02.png",
+        "ThumbnailUrl": "/images/portfolio/unitile/nc-02-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 960
+      },
+      {
+        "Url": "/images/portfolio/unitile/nc-03.png",
+        "ThumbnailUrl": "/images/portfolio/unitile/nc-03-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 960
+      }
+    ]
+  },
+  {
+    "ID": 16,
+    "Name": {
+      "ru": "Видеопилот",
+      "en": "Videopilot"
+    },
+    "Task": {
+      "ru": "Программа для автоматизации учета в розничной торговле.",
+      "en": ""
+    },
+    "Action": {
+      "ru": "",
+      "en": ""
+    },
+    "Result": {
+      "ru": "Различные версии программы были установлены более чем в 500 магазинах России, стран СНГ, Германии и Греции.",
+      "en": ""
+    },
+    "DateStarted": "2004-12-01",
+    "DateFinished": "2006-09-01",
+    "Skills": [ 34, 35 ],
+    "Screenshots": [
+      {
+        "Url": "/images/portfolio/videopilot/videopilot-10.png",
+        "ThumbnailUrl": "/images/portfolio/videopilot/videopilot-10-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Url": "/images/portfolio/videopilot/videopilot-12.png",
+        "ThumbnailUrl": "/images/portfolio/videopilot/videopilot-12-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Url": "/images/portfolio/videopilot/videopilot-13.png",
+        "ThumbnailUrl": "/images/portfolio/videopilot/videopilot-13-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 800
+      },
+      {
+        "Url": "/images/portfolio/videopilot/videopilot-14.png",
+        "ThumbnailUrl": "/images/portfolio/videopilot/videopilot-14-tn.png",
+        "Description": {
+          "ru": "",
+          "en": ""
+        },
+        "Width": 1280,
+        "Height": 800
+      }
+    ]
+  }
+]

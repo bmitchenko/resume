@@ -1,0 +1,536 @@
+[
+  {
+    "ID": 1,
+    "PredecessorID": [ 2 ],
+    "Name": {
+      "ru": "TypeScript"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2013-02-01"
+      }
+    ],
+    "Level": 5,
+    "Weight": 20
+  },
+  {
+    "ID": 2,
+    "Name": {
+      "ru": "JavaScript"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2005-01-01"
+      }
+    ],
+    "Level": 4,
+    "Weight": 20
+  },
+  {
+    "ID": 3,
+    "Name": {
+      "ru": "Angular 2"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2016-07-01"
+      }
+    ],
+    "Level": 3,
+    "PlannedLevel": 5,
+    "Status": "Preferred",
+    "Weight": 15
+  },
+  {
+    "ID": 4,
+    "Name": {
+      "ru": "Durandal"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2015-02-01",
+        "To": "2016-04-01"
+      }
+    ],
+    "Level": 3,
+    "Weight": 15,
+    "Status": "Inactive"
+  },
+  {
+    "ID": 5,
+    "Name": {
+      "ru": "Knockout.js"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2013-07-01",
+        "To": "2016-07-01"
+      }
+    ],
+    "Level": 5,
+    "Weight": 10
+  },
+  {
+    "ID": 6,
+    "Name": {
+      "ru": "jQuery"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2010-01-01"
+      }
+    ],
+    "Level": 3,
+    "Weight": 10
+  },
+  {
+    "ID": 7,
+    "FamilyID": 4,
+    "Name": {
+      "ru": "HTML"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2002-10-01"
+      }
+    ],
+    "Level": 5,
+    "Weight": 20,
+    "Status": "Inactive"
+  },
+  {
+    "ID": 8,
+    "FamilyID": 4,
+    "PredecessorID": [ 7 ],
+    "Name": {
+      "ru": "HTML5"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2014-10-01"
+      }
+    ],
+    "Level": 4,
+    "Weight": 20
+  },
+  {
+    "ID": 9,
+    "FamilyID": 1,
+    "Name": {
+      "ru": "CSS"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2002-10-01"
+      }
+    ],
+    "Level": 4,
+    "Weight": 20
+  },
+  {
+    "ID": 10,
+    "FamilyID": 1,
+    "Name": {
+      "ru": "LESS"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2013-01-01"
+      }
+    ],
+    "Level": 4,
+    "Weight": 15
+  },
+  {
+    "ID": 11,
+    "FamilyID": 1,
+    "Name": {
+      "ru": "SCSS"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2016-03-01"
+      }
+    ],
+    "Level": 4,
+    "Weight": 15
+  },
+  {
+    "ID": 12,
+    "Name": {
+      "ru": "Gulp"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2015-01-01"
+      }
+    ],
+    "Weight": 5
+  },
+  {
+    "ID": 13,
+    "Name": {
+      "ru": "Jasmine"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2016-02-01"
+      }
+    ],
+    "Weight": 5
+  },
+  {
+    "ID": 14,
+    "Name": {
+      "ru": "Webpack"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2016-06-01"
+      }
+    ],
+    "Weight": 5
+  },
+  {
+    "ID": 15,
+    "Name": {
+      "ru": "npm"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2016-01-01"
+      }
+    ],
+    "Weight": 5
+  },
+  {
+    "ID": 16,
+    "Name": {
+      "ru": "Bootstrap"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2014-01-01"
+      }
+    ],
+    "Weight": 15
+  },
+  {
+    "ID": 17,
+    "Name": {
+      "ru": "Flexbox"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2015-01-01"
+      }
+    ],
+    "Weight": 15
+  },
+  {
+    "ID": 18,
+    "Name": {
+      "ru": "Адаптивная верстка",
+      "en": "Responsive web design"
+    },
+    "Category": "FrontEnd",
+    "UsagePeriods": [
+      {
+        "From": "2014-01-01"
+      }
+    ]
+  },
+  {
+    "ID": 19,
+    "Name": {
+      "ru": "C#"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2006-01-01"
+      }
+    ],
+    "Level": 5,
+    "Weight": 20
+  },
+  {
+    "ID": 20,
+    "FamilyID": 3,
+    "Name": {
+      "ru": "ASP.NET MVC 5"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2010-01-01"
+      }
+    ],
+    "Level": 4,
+    "Weight": 15
+  },
+  {
+    "ID": 21,
+    "FamilyID": 3,
+    "Name": {
+      "ru": "ASP.NET Web API 2"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2012-01-01"
+      }
+    ],
+    "Level": 4,
+    "Weight": 15
+  },
+  {
+    "ID": 22,
+    "FamilyID": 3,
+    "PredecessorID": [ 20, 21 ],
+    "Name": {
+      "ru": "ASP.NET Core"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2016-05-01"
+      }
+    ],
+    "Level": 3,
+    "PlannedLevel": 5,
+    "Weight": 15,
+    "Status": "Preferred"
+  },
+  {
+    "ID": 23,
+    "Name": {
+      "ru": "LINQ"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2009-01-01"
+      }
+    ],
+    "Level": 4,
+    "Weight": 10
+  },
+  {
+    "ID": 24,
+    "Name": {
+      "ru": "Entity Framework"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2012-01-01"
+      }
+    ],
+    "Level": 5,
+    "Weight": 15
+  },
+  {
+    "ID": 25,
+    "Name": {
+      "ru": "SQL Server"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2006-01-01"
+      }
+    ],
+    "Level": 3,
+    "Weight": 20
+  },
+  {
+    "ID": 26,
+    "Name": {
+      "ru": "WCF"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2010-01-01",
+        "To": "2012-01-01"
+      }
+    ],
+    "Level": 3,
+    "Weight": 15
+  },
+  {
+    "ID": 27,
+    "FamilyID": 2,
+    "Name": {
+      "ru": "AutoFac"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2015-03-01"
+      }
+    ],
+    "Weight": 10
+  },
+  {
+    "ID": 28,
+    "FamilyID": 2,
+    "Name": {
+      "ru": "Ninject"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2015-03-01"
+      }
+    ],
+    "Weight": 10
+  },
+  {
+    "ID": 29,
+    "Name": {
+      "ru": "FluentValidation"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2016-01-01"
+      }
+    ],
+    "Weight": 10
+  },
+  {
+    "ID": 30,
+    "Name": {
+      "ru": "AutoMapper"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2016-01-01"
+      }
+    ],
+    "Weight": 10
+  },
+  {
+    "ID": 31,
+    "Name": {
+      "ru": "Microsoft Azure"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2015-01-01"
+      }
+    ],
+    "Weight": 5
+  },
+  {
+    "ID": 32,
+    "Name": {
+      "ru": "WinForms"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2006-01-01",
+        "To": "2013-01-01"
+      }
+    ],
+    "Status": "Inactive",
+    "Weight": 15
+  },
+  {
+    "ID": 33,
+    "Name": {
+      "ru": "DevExpress"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2006-01-01",
+        "To": "2013-01-01"
+      }
+    ],
+    "Status": "Inactive",
+    "Weight": 10
+  },
+  {
+    "ID": 34,
+    "Name": {
+      "ru": "Delphi"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2001-01-01",
+        "To": "2009-01-01"
+      }
+    ],
+    "Status": "Inactive",
+    "Weight": 20
+  },
+  {
+    "ID": 35,
+    "Name": {
+      "ru": "Firebird"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2002-01-01",
+        "To": "2008-01-01"
+      }
+    ],
+    "Status": "Inactive",
+    "Weight": 20
+  },
+  {
+    "ID": 36,
+    "Name": {
+      "ru": "PHP"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2007-01-01",
+        "To": "2009-02-01"
+      }
+    ],
+    "Status": "Inactive",
+    "Weight": 20
+  },
+  {
+    "ID": 37,
+    "Name": {
+      "ru": "MySQL"
+    },
+    "Category": "BackEnd",
+    "UsagePeriods": [
+      {
+        "From": "2009-01-01",
+        "To": "2009-02-01"
+      }
+    ],
+    "Status": "Inactive",
+    "Weight": 5
+  }
+]

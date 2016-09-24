@@ -1,0 +1,124 @@
+﻿@model SkillsIndexViewModel
+@inject IStringLocalizer<Program> localizer
+@inject IHtmlLocalizer<Program> htmlLocalizer
+
+<div class="skills-index">
+    <div class="front-end">
+        <h2>Front-end</h2>
+        @foreach (var skill in Model.Skills.Where(x => x.Category == SkillCategory.FrontEnd))
+        {
+            <div class="skill @skill.ClassName">
+                <div class="name">
+                @skill.Name
+                    @if (skill.PlannedLevel.HasValue)
+                    {
+                        <img src="~/images/learning-process-16.png" />
+                    }
+                </div>
+                @if (skill.Level.HasValue)
+                {
+                    <skill-level current="@skill.Level.Value" planned="@skill.PlannedLevel" />
+                }
+            </div>
+        }
+    </div>
+    <div class="back-end">
+        <h2>Back-end</h2>
+        @foreach (var skill in Model.Skills.Where(x => x.Category == SkillCategory.BackEnd))
+        {
+            <div class="skill @skill.ClassName">
+                <div class="name">
+                @skill.Name
+                    @if (skill.PlannedLevel.HasValue)
+                    {
+                        <img src="~/images/learning-process-16.png" />
+                    }
+                </div>
+                @if (skill.Level.HasValue)
+                {
+                    <skill-level current="@skill.Level.Value" planned="@skill.PlannedLevel" />
+                }
+            </div>
+        }
+    </div>
+    <section class="personal-info">
+        <h2>&nbsp;</h2>
+        <div class="bio">
+            @htmlLocalizer["Profile"]
+        </div>
+        <div class="abilities">
+            <div class="ability">
+                <img src="~/images/abilities/is-online.png" /><span>@localizer["AbilityOnline"]</span>
+            </div>
+            <div class="ability">
+                <img src="~/images/abilities/is-educable.png" /><span>@localizer["AbilityImproveKnowledge"]</span>
+            </div>
+            <div class="ability">
+                <img src="~/images/abilities/is-responsible.png" /><span>@localizer["AbilityResponsible"]</span>
+            </div>
+            <div class="ability">
+                <img src="~/images/abilities/is-team-player.png" /><span>@localizer["AbilityTeamPlayer"]</span>
+            </div>
+            <div class="ability">
+                <img src="~/images/abilities/is-agile.png" /><span>@localizer["AbilityAgile"]</span>
+            </div>
+        </div>
+    </section>
+    <section class="tests">
+        <h2>@localizer["TestHeader"]</h2>
+        <table class="large-screen">
+            <thead>
+                <tr>
+                    <th>@localizer["TestYear"]</th>
+                    <th>@localizer["TestName"]</th>
+                    <th>@localizer["TestCompany"]</th>
+                    <th>@localizer["TestScore"]</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var test in Model.Tests)
+                {
+                    <tr>
+                        <td>@test.Date.Year</td>
+                        <td>
+                            @if (!string.IsNullOrWhiteSpace(test.Link))
+                            {
+                                <a href="@test.Link" target="_blank">@test.Name</a>
+                            }
+                            else
+                            {
+                                @test.Name
+                            }
+                        </td>
+                        <td>@test.Company</td>
+                        <td class="rank-column">
+                            <span class="score">@test.Score</span>
+                            @if (test.Rank <= 20)
+                            {
+                                <span class="rank-badge">top @Math.Round(test.Rank)%</span>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <div class="tests small-screen">
+            @foreach (var test in Model.Tests)
+            {
+                <div class="test">
+                    <h3>
+                        @if (!string.IsNullOrWhiteSpace(test.Link))
+                        {
+                            <a href="@test.Link" target="_blank">@test.Name,</a> <span class="score">@test.Score</span>
+                        }
+                        else
+                        {
+                            <span>@test.Name, <span class="score">@test.Score</span></span>
+                        }
+                    </h3>
+                    @test.Company, @test.Date.Year
+                </div>
+            }
+        </div>
+    </section>
+</div>

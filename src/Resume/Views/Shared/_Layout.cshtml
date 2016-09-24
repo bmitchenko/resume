@@ -1,0 +1,30 @@
+﻿@using Resume.ViewComponents;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Борис Митченко - ведущий программист .NET, C#, ASP.NET MVC, Web API, TypeScript, Angular 2, SQL Server</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Roboto:100,300,400,400i,500,700&subset=cyrillic" rel="stylesheet">
+    <script src="~/lib/photoswipe/dist/photoswipe.js"></script>
+    <script src="~/lib/photoswipe/dist/photoswipe-ui-default.js"></script>
+
+    <environment names="Development">
+        <link href="~/lib/photoswipe/dist/photoswipe.css" rel="stylesheet" />
+        <link href="~/lib/photoswipe/dist/default-skin/default-skin.css" rel="stylesheet" />
+        <link href="~/css/site.css" rel="stylesheet" />
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+</head>
+<body>
+    @await Component.InvokeAsync("Header")
+    @await Component.InvokeAsync("Navigation")
+    <main>
+        @RenderBody()
+    </main>
+</body>
+</html>

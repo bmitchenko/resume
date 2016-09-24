@@ -1,0 +1,55 @@
+﻿.header {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    .person {
+        font-family: 'Open Sans';
+
+        .person-name {
+            a, a:visited {
+                color: #000;
+            }
+
+            font-size: 30px;
+            margin: 0 0 8px 0;
+        }
+
+        .job-title {
+            font-size: 18px;
+        }
+    }
+
+    .contacts {
+        text-align: right;
+
+        .phone-number {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        & > * {
+            margin: 0 0 6px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        display: block;
+        align-items: flex-start;
+
+        .person {
+            margin: 0 0 16px 0;
+        }
+
+        .contacts {
+            text-align: left;
+
+            .phone-number {
+                margin-bottom: 16px;
+            }
+        }
+    }
+}

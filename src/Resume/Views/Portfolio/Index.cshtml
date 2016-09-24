@@ -1,0 +1,75 @@
+﻿@model PortfolioIndexViewModel
+<h2>@Model.Header</h2>
+<div class="portfolio-index">
+    <aside>
+        <ul class="skills">
+            @foreach (var filter in Model.Filter)
+            {
+                <li class="@(filter.IsSelected ? "selected" : "")">
+                    <a href="@filter.Url">@filter.Name <strong>@filter.ProjectCount</strong></a>
+                </li>
+            }
+        </ul>
+    </aside>
+    <section class="projects">
+        @foreach (var project in Model.Projects)
+        {
+            <a name="project@(project.ID)"></a>
+            <div class="project">
+                <h3>
+                    @if (project.DemoLink != null)
+                    {
+                        <span><a target="_blank" href="@project.DemoLink">@project.Name</a>, @project.Year</span>
+                    }
+                    else
+                    {
+                        <span>@project.Name, @project.Year</span>
+                    }
+                    @if (project.SourceLink != null)
+                    {
+                        <a target="_blank" class="project-source" title="Посмотреть исходный код" href="@project.SourceLink">
+                            <img src="~/images/github-24.png" />
+                        </a>
+                    }
+                </h3>
+                <div class="project-description">
+                    @if (!string.IsNullOrWhiteSpace(project.Task))
+                    {
+                        <markdown>@project.Task</markdown>
+                    }
+                    @if (!string.IsNullOrWhiteSpace(project.Action))
+                    {
+                        <markdown>@project.Action</markdown>
+                    }
+                    @if (!string.IsNullOrWhiteSpace(project.Result))
+                    {
+                        <markdown>@project.Result</markdown>
+                    }
+                </div>
+                @if (project.Skills != null)
+                {
+                    <ul class="project-skills tag-list">
+                        @foreach (var skill in project.Skills)
+                        {
+                            <li>
+                                <a href="@skill.Url">@skill.Name</a>
+                            </li>
+                        }
+                    </ul>
+                }
+                @if (project.Screenshots != null)
+                {
+                    <div class="project-gallery photoswipe-gallery">
+                        @foreach (var screenshot in project.Screenshots)
+                        {
+                            <a href="@screenshot.Url" target="_blank" data-description="@screenshot.Description" data-width="@screenshot.Width" data-height="@screenshot.Height">
+                                <img src="@screenshot.ThumbnailUrl" />
+                            </a>
+                        }
+                    </div>
+                }
+            </div>
+        }
+    </section>
+</div>
+@await Component.InvokeAsync("PhotoSwipe")

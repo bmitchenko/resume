@@ -1,0 +1,38 @@
+﻿@model ExperienceIndexViewModel
+<div class="experience-index">
+    <h2>@Model.Header</h2>
+    @foreach (var organization in Model.Organizations)
+    {
+        <div class="job">
+            <div class="job-period">
+                @organization.TimePeriod
+            </div>
+            <div class="job-description">
+                <h3>@organization.Name</h3>
+                <div class="job-title">@organization.JobTitle</div>
+                <ul class="job-responsibilities">
+                    @foreach (var responsibility in organization.Responsibilities)
+                    {
+                        <li>@responsibility</li>
+                    }
+                </ul>
+                <ul class="job-skills tag-list">
+                    @foreach (var skill in organization.Skills)
+                    {
+                        <li>
+                            <a href="@skill.Url">@skill.Name</a>
+                        </li>
+                    }
+                </ul>
+                <ul class="job-projects tag-list">
+                    @foreach (var project in organization.Projects)
+                    {
+                        <li>
+                            <a href="@project.Url">@project.Name</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,25 @@
+﻿@model HeaderViewModel
+<header class="header">
+    <div class="person">
+        <div class="person-name">
+            <a href="@Model.HomeUrl">@Model.Name</a>
+        </div>
+        <div class="job-title">
+            @Model.JobTitle
+        </div>
+    </div>
+    <div class="contacts">
+        <div class="phone-number">
+            +7 (952) 572-69-88
+        </div>
+        <div class="email">
+            <a href="mailto:boris.mitchenko@outlook.com">boris.mitchenko@outlook.com</a>
+        </div>
+        <div class="skype">
+            skype: <a href="skype:boris.mitchenko?chat">boris.mitchenko</a>
+        </div>
+        <div class="github">
+            <a href="https://github.com/bmitchenko" target="_blank">github.com/bmitchenko</a>
+        </div>
+    </div>
+</header>
